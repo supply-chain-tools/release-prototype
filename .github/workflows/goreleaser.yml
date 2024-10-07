@@ -28,7 +28,7 @@ jobs:
           if [ "$(sha256sum gitverify.json | cut -d ' ' -f1)" != "8b5f21fe1a8f49a1b795ca57de600a4465c7e566ca3895ddf9bf7d7899c31ac4" ]; then exit 1; fi
           git checkout main
           git checkout ${{github.sha}}
-          ~/go/bin/gitverify --config-file gitverify.json --repository-uri git+https://github.com/supply-chain-tools/experimentation.git --commit ${{github.sha}} --branch main --tag ${{github.ref_name}}
+          ~/go/bin/gitverify --config-file gitverify.json --repository-uri git+https://github.com/supply-chain-tools/release-prototype.git --commit ${{github.sha}} --branch main --tag ${{github.ref_name}}
   args:
     runs-on: ubuntu-latest
     needs: verify
