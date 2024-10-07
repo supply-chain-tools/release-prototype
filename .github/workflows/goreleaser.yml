@@ -20,7 +20,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32 # tag=v5.0.2
         with:
-          go-version: '1.23.1'
+          go-version: '1.23.2'
       - name: Verify using gitverify
         run: |
           go install github.com/supply-chain-tools/go-sandbox/cmd/gitverify@v0.0.0-20241001120425-508aea1fc47d
