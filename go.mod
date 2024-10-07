@@ -1,4 +1,4 @@
-module github.com/supply-chain-tools/experimentation
+module github.com/supply-chain-tools/release-prototype
 
 go 1.23.2
 
