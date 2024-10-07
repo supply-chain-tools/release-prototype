@@ -14,3 +14,5 @@ cmd/**/*
 vendor/
 
 binary-linux-amd64
+key.pub
+sig
