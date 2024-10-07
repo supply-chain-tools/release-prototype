@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/supply-chain-tools/experimentation/count"
+	"github.com/supply-chain-tools/release-prototype/count"
 	"os"
 )
 
