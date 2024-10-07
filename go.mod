@@ -1,6 +1,6 @@
-module github.com/supply-chain-tools/experimentation
+module github.com/supply-chain-tools/release-prototype
 
-go 1.23.1
+go 1.23.2
 
 require (
 	github.com/go-git/go-git/v5 v5.12.0
